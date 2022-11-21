@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: arial;
+}
+
+body .container {
+    margin: 2%;
+}
+
+body .container .cart {
+    width: 20%;
+    display: inline-block;
+    border: 0.5px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    margin: 2%;
+    text-align: center;
+    position: relative;
+}
+
+body .container .cart .image img {
+    width: 100%;
+}
+
+body .container .cart span {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    background: #212529;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: block;
+}
+
+body .container .cart .title {
+    text-align: center;
+    padding: 10px;
+}
+
+body .container .cart .title h1 {
+    font-size: 20px;
+}
+
+body .container .cart .des {
+    padding: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+body .container .cart .des .btn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+body .container .cart .des .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
